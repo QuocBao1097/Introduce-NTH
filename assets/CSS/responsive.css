@@ -1,108 +1,96 @@
-
-        /* PC */
-@media (min-width: 1024px){ 
-    #header .mobile-menu-btn {
-        display: none;
-    }
-    .place-body{ 
-        padding: 31px;
-    }
+/* PC */
+@media (min-width: 1024px) {
+  #header .mobile-menu-btn {
+    display: none;
+  }
+  .place-body {
+    padding: 31px;
+  }
 }
 
-        /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px){ 
-    #header .mobile-menu-btn {
-        display: none;
-    }
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  #header .mobile-menu-btn {
+    display: none;
+  }
 }
 
+/* Moblie */
 
-        /* Moblie */
+@media (max-width: 739px) {
+  #main {
+    overflow: hidden;
+  }
+  #header {
+    overflow: hidden;
+  }
 
-@media (max-width: 739px){ 
+  #header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 
-    #main {
-        overflow: hidden;
-    }
-    #header {   
-        overflow: hidden;
-    }
+  #header .mobile-menu-btn:hover .icon-menu {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: -4px;
+  }
 
-    #header .mobile-menu-btn{ 
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
+  #nav > li {
+    display: block;
+  }
+  #nav .subnav {
+    position: inherit;
+    background-color: rgb(114 110 110);
+  }
+  #nav .subnav a {
+    color: aliceblue;
+  }
 
+  .icon-search {
+    display: none;
+  }
 
-    #header .mobile-menu-btn:hover .icon-menu{ 
-        padding-bottom: 15px;
-        padding-top: 15px;
-        margin-right: -4px;
-    }
+  #nav > li:first-child {
+    display: inline-block;
+  }
 
+  .ti-menu:before {
+    margin-left: 10px;
+  }
 
-    #nav >li {
-        display: block;
-    }
-    #nav .subnav{ 
-        position:inherit;
-        background-color: rgb(114 110 110);
-    }
-    #nav .subnav a{ 
-        color: aliceblue;
-    }
-
-
-    .icon-search{ 
-        display: none;
-    }
-
-    #nav >li:first-child{ 
-        display: inline-block;
-    }
-
-
-    .ti-menu:before {
-        margin-left: 10px;
-    }
- 
-/* 
+  /* 
     .places-list{ 
         margin-top: 50px;
         padding: -9px;
     }
  */
 
-    .places-list {
-        margin: 15px -15px 51px;
-    }
+  .places-list {
+    margin: 15px -15px 51px;
+  }
 
+  .content-main {
+    margin-left: -38px;
+  }
 
-    .content-main { 
-        margin-left: -38px;
-    }
+  .sent,
+  .content-right {
+    display: none;
+  }
 
+  .place-body {
+    font-size: 12px;
+  }
 
-    .sent, .content-right{ 
-        display: none;
-    }
+  .button {
+    margin-bottom: 6px;
+    padding: 12px 8px;
+  }
 
-
-    .place-body { 
-        font-size: 12px;
-    }
-
-
-    .button{ 
-        margin-bottom: 6px;
-        padding: 12px 8px;
-    }
-
-
-    #slider .text-content{ 
-        bottom: 7px;
-        font-size: 12px;
-
-    }
+  #slider .text-content {
+    bottom: 7px;
+    font-size: 12px;
+  }
 }
