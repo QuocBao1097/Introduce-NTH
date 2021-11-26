@@ -23,7 +23,7 @@ html {
   clear: both;
 }
 body {
-  background-image: linear-gradient(to right, #4daf54, #3d8880);
+  background-image: linear-gradient(to right, #ffdee9, #b5fffc);
 }
 
 #header {
@@ -202,7 +202,7 @@ body {
 }
 
 #content .section-heading {
-  color: white;
+  color: black;
   font-weight: 500;
   font-size: 30px;
   text-align: center;
@@ -212,7 +212,7 @@ body {
 }
 
 #content .section-sub-heading {
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 26px;
   margin-bottom: 32px;
@@ -496,7 +496,7 @@ body {
 }
 
 .design a {
-  color: rgb(238, 228, 228);
+  color: rgb(240, 23, 23);
   text-decoration: none;
 }
 
