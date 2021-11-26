@@ -23,7 +23,7 @@ html {
   clear: both;
 }
 body {
-  background-image: linear-gradient(to right, #ffdee9, #b5fffc);
+  background-image: linear-gradient(to left, #ffdee9, #b5fffc);
 }
 
 #header {
