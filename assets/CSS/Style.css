@@ -1,20 +1,8 @@
-/* reset Css */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-/*  
-        1. Tu ngoai vao trong
-        2. Tu tren xuong duois
-        3. Nhin tong the den chi tiet
-    */
-/* 
-        1. vi tri
-        2. kich thuoc
-        3. mau sac
-        4. hinh dang 
-    */
 
 html {
   scroll-behavior: smooth;
@@ -23,6 +11,9 @@ html {
   clear: both;
 }
 body {
+  /* chữ  hiển  thị  mượt  mà  hơn */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   background-image: linear-gradient(to left, #ffdee9, #b5fffc);
 }
 
@@ -33,7 +24,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1; /* ảnh of slider nằm dưới header */
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 10px rgba(71, 70, 70, 0.5);
@@ -163,12 +154,11 @@ body {
   cursor: pointer;
   color: rgb(17, 1, 17);
 }
-
 #slider {
   position: relative; /*hoặc margin-top: 46px; */
   top: 46px;
-  padding-top: 75%; /* 75 % chiều ngang của chính nó */
-  background: url("../img/HinhNen.jpg") top center/ cover no-repeat;
+  padding-top: 75%;
+  background: url("../img/HinhNen.jpg") center center/ cover no-repeat;
 }
 
 #slider .text-content {
@@ -270,7 +260,7 @@ body {
 
 .tour-section .section-sub-heading {
   padding-top: 15px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .tickets-list {
@@ -320,6 +310,13 @@ body {
 
 #hobbies .tour-section {
   padding: unset;
+}
+#hobbies .section-heading {
+  color: white;
+}
+#hobbies .section-sub-heading {
+  color: black unset;
+  color: white;
 }
 .places-list {
   display: flex;
@@ -472,6 +469,7 @@ body {
   margin-top: 55px;
   margin-bottom: 35px;
 }
+
 #footer {
   font-size: 20px;
   padding: 4px 16px;
@@ -506,8 +504,7 @@ body {
 
 .cons {
   height: 70px;
-  background: #000;
-  color: white;
+  color: #2c0e0e;
   font-size: 25px;
   text-align: center;
   line-height: 70px;
