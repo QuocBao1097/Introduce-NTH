@@ -270,7 +270,7 @@ body {
 
 .tickets-list {
   list-style-type: none;
-  background-color: #ffff;
+  background-color: hwb(0 100% 0%);
   color: #757575;
   margin-left: 42px;
   margin-right: 42px;
